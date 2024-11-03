@@ -1,0 +1,46 @@
+.rainbow-color {
+    background-color: white;
+    color: black;
+    padding: 10px; 
+}
+
+.rainbow-color:hover {
+    color: var(--hover-color);
+}
+
+.red:hover {
+    --hover-color: red;
+}
+
+.orange:hover {
+    --hover-color: orange;
+}
+
+.yellow:hover {
+    --hover-color: yellow;
+}
+
+.green:hover {
+    --hover-color: green;
+}
+
+.lightblue:hover {
+    --hover-color: lightblue;
+}
+
+.blue:hover {
+    --hover-color: blue;
+}
+
+.purple:hover {
+    --hover-color: purple;
+}
+
+.rainbow-color {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: color 0.3s ease; 
+}
